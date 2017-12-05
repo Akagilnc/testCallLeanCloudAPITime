@@ -10,4 +10,4 @@ async function call () {
     console.log('used ' + (end_time - begin_time) + 'ms')
 }
 
-call()
+call().then((v)=>{})
