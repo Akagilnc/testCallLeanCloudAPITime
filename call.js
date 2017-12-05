@@ -1,7 +1,6 @@
-const request = require('request');
 async function call () {
 
-    var fetch = require("node-fetch");
+    const fetch = require("node-fetch");
 
     console.time('test');
 
